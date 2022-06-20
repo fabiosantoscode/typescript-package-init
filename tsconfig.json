@@ -2,7 +2,7 @@
 {
   "compilerOptions": {
     "rootDir": "ts",
-    "outDir": "dist/esm",
+    "outDir": "./dist/esm",
     "target": "es2020",
     "lib": [
       "es2020",
@@ -15,5 +15,6 @@
     // Needed for CommonJS modules
     "allowSyntheticDefaultImports": true, // (C)
     "declaration": true,
-  }
+  },
+  "exclude": ["./dist/*"]
 }

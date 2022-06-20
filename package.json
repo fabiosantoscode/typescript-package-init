@@ -14,7 +14,7 @@
   "typesVersions": {
     "*": {
       "main.d.ts": [
-        "dist/src/main.d.ts"
+        "dist/esm/src/main.d.ts"
       ]
     }
   },
